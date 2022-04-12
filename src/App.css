@@ -1,3 +1,41 @@
 .container {
     display: flex;
+    flex-direction: column;
+
+    
+}
+#editor {
+    width:45vw;
+    height: 80vh;
+    
+}
+
+#preview{
+    width:45vw;
+    height: 80vh;
+    border: solid 1px;
+    overflow: scroll;
+    padding: 2px;
+    padding-left: 15px;
+}
+
+#pereview img {
+    height: 50px;
+}
+.previewContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headers{
+    display:flex;
+}
+
+.headers h2 {
+    flex-grow: 1;
+    text-align: center;
+}
+h1 {
+    text-align: center;
 }
